@@ -1,0 +1,1 @@
+For more information see: https://github.com/adobe-fonts/source-code-pro

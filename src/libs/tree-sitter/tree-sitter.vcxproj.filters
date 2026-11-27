@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f9158df1-1992-4a2e-bbe3-0d052c6cf435}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inlcude\tree_sitter\api.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\alloc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\atomic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\error_costs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\get_changed_ranges.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\host.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\language.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\length.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lexer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\point.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reduce_action.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reusable_node.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\subtree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tree_cursor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ts_assert.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unicode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wasm_store.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\alloc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\get_changed_ranges.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\language.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lexer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\point.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\query.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\subtree.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tree_cursor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wasm_store.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

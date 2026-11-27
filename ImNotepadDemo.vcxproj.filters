@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\libs">
+      <UniqueIdentifier>{d776985c-346b-447d-b99b-6ac77cc9ef12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs\tree-sitter">
+      <UniqueIdentifier>{97f79434-3e4b-4454-9e45-e8a4281ca793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs\imgui">
+      <UniqueIdentifier>{e11f1da1-6b8c-4f1f-a5d1-0a23fbdf5ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs\imgui\backends">
+      <UniqueIdentifier>{71eedc59-e559-4689-a044-e1a44006d8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs\imgui\extensions">
+      <UniqueIdentifier>{4168d3ef-8e71-4cf0-bf28-778c695f7760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs\imgui\extensions\imnotepad">
+      <UniqueIdentifier>{70774374-66e5-4599-abc2-5ee3d4db2f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs\imgui\extensions\imstring">
+      <UniqueIdentifier>{7be4c6a9-26f7-401f-ae3b-6420585ff254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs\imgui\extensions\imfiletree">
+      <UniqueIdentifier>{b1d89921-6e02-44d8-bd3d-1df9e63221b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc">
+      <UniqueIdentifier>{7c39938d-bda1-43f3-8796-2aba1234f453}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\tree-sitter\src\lib.c">
+      <Filter>src\libs\tree-sitter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\imgui.cpp">
+      <Filter>src\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\imgui_draw.cpp">
+      <Filter>src\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\imgui_tables.cpp">
+      <Filter>src\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\imgui_widgets.cpp">
+      <Filter>src\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>src\libs\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>src\libs\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\extensions\imnotepad\fredbuf.cpp">
+      <Filter>src\libs\imgui\extensions\imnotepad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\extensions\imnotepad\imnotepad.cpp">
+      <Filter>src\libs\imgui\extensions\imnotepad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\extensions\imnotepad\imnotepad_colorschemes.cpp">
+      <Filter>src\libs\imgui\extensions\imnotepad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\extensions\imstring\imstring.cpp">
+      <Filter>src\libs\imgui\extensions\imstring</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imnotepad_demo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\imgui_demo.cpp">
+      <Filter>src\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\extensions\imfiletree\imfiletree.cpp">
+      <Filter>src\libs\imgui\extensions\imfiletree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\os_dynlib.c">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\os_filesystem.c">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\path_utils.c">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\utf8_utils.c">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\imgui\extensions\imfiletree\imfiletree_colorschemes.cpp">
+      <Filter>src\libs\imgui\extensions\imfiletree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\libs\imgui\imconfig.h">
+      <Filter>src\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\imgui.h">
+      <Filter>src\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\imgui_internal.h">
+      <Filter>src\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\backends\imgui_impl_glfw.h">
+      <Filter>src\libs\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>src\libs\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>src\libs\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imnotepad\fredbuf.h">
+      <Filter>src\libs\imgui\extensions\imnotepad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imnotepad\imnotepad.h">
+      <Filter>src\libs\imgui\extensions\imnotepad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imnotepad\imnotepad_colorschemes.h">
+      <Filter>src\libs\imgui\extensions\imnotepad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imnotepad\imnotepad_internal.h">
+      <Filter>src\libs\imgui\extensions\imnotepad</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imstring\imstring.h">
+      <Filter>src\libs\imgui\extensions\imstring</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imfiletree\imfiletree.h">
+      <Filter>src\libs\imgui\extensions\imfiletree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\constexpr_utils.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\hash_utils.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\os_dynlib.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\os_filesystem.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\path_utils.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\utf8_utils.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imfiletree\imfiletree_internal.h">
+      <Filter>src\libs\imgui\extensions\imfiletree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\imgui\extensions\imfiletree\imfiletree_colorschemes.h">
+      <Filter>src\libs\imgui\extensions\imfiletree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\imgui_color_utils.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
